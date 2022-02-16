@@ -8,7 +8,18 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{4002535A-0531-4697-A26D-5C83CE42019B}" version="14">
-		<children />
+		<children>
+			<testItem name="Test1" key="{F7277E89-2358-4B75-B000-452091525869}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C3D11FB4-9F94-43E8-860C-8E769DE3D1F6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="Test2" key="{124F4A3C-5212-42D4-B560-30A92EE4F64B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{832BA5D1-F674-4D4F-B260-8A9173D725FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{82BA328A-A2F0-4E08-8FD8-EBB11C935FAA}" />
 	<settings key="{1BBD69E1-93A6-41EA-97A4-417AACFF2B00}">
